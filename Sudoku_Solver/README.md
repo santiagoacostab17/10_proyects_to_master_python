@@ -15,13 +15,4 @@ It demonstrates advanced Python concepts, including **backtracking algorithms, r
 - CLI-based, **interactive user input**  
 - Clean, modular, and **readable Python code**
 
----
 
-## 📥 Installation
-
-- **Python 3.10+** required  
-- Clone the repository or copy the project folder:
-
-```bash
-git clone https://github.com/yourusername/python-mastery-mini-projects.git
-cd python-mastery-mini-projects/Sudoku_Solver
