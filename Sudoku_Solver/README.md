@@ -1,18 +1,20 @@
 # 🧩 Sudoku Solver & Generator
 
-## 📌 Project Overview
-This project is a **command-line interface (CLI) Sudoku program** that can **generate Sudoku puzzles** of varying difficulty and **solve them automatically**.  
+## 📌 Overview
+A **Python command-line Sudoku program** that can **generate puzzles** of varying difficulty and **solve them automatically**.  
 
-It demonstrates advanced Python concepts, including **backtracking algorithms, recursion, and object-oriented programming**, while providing a fully functional puzzle solver and generator.
+Demonstrates **backtracking, recursion, and object-oriented programming** while providing a fully functional puzzle solver and generator.
 
 ---
 
 ## ⚙️ Features
 
 - Generate **valid Sudoku puzzles**  
-- Solve any Sudoku puzzle using a **backtracking algorithm**  
-- Adjustable **difficulty levels** (easy, medium, hard)  
-- CLI-based, **interactive user input**  
-- Clean, modular, and **readable Python code**
+- Solve the puzzle automatically using a **backtracking algorithm**  
+- Adjustable **difficulty** (easy, medium, hard via number of empty cells)  
+- **Interactive CLI** for input  
+- **Visualize** puzzles as PNG images  
+- Clean, modular, **readable Python code**
 
+> ⚠️ Note: The program **only solves the puzzle it generates**.
 
