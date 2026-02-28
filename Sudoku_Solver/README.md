@@ -41,7 +41,7 @@ Designed for **students, Python enthusiasts, and algorithm learners**, it demons
 
 A visual representation of the **Sudoku generation and solving workflow**:  
 
-[![Sudoku Flowchart](./images/batch_flow.png)](./images/batch_flow.png)  
+[![Sudoku Flowchart](./images/sudoku_flow.png)](./images/sudoku_flow.png)  
 *Shows steps: board creation → board filling → remove numbers → display → solve → save images.*
 
 ---
