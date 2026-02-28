@@ -43,7 +43,7 @@ Designed for **data analysts and business intelligence workflows**, it demonstra
 
 A visual representation of the **batch data cleaning and summarization workflow**:  
 
-[![Data Pipeline Flowchart](./DataPipeline.png)](./DataPipeline.png)  
+[![Data Pipeline Flowchart](./images/batch_flow.png)](./images/batch_flow.png) 
 *Shows steps from reading files, cleaning, summarizing, and saving results.*
 
 ---
