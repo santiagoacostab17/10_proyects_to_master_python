@@ -1,4 +1,4 @@
-# 🐍 Python Mastery: 10 Advanced Mini Projects
+# 🐍 DataForge: 10 Advanced Mini Projects
 
 ## 📌 Executive Summary
 This repository contains **10 advanced Python mini projects**, each designed to help you **master a key area of Python programming** and demonstrate **real-world, practical skills**.
