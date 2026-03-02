@@ -6,7 +6,7 @@ A minimal data analysis project that consumes the REST Countries API, transforms
 
 ## 📊 Dashboard Preview
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](dashboard_preview.png)
 
 ---
 
