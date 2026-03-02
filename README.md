@@ -1,4 +1,4 @@
-# 🐍 DataForge: 10 Advanced Mini Projects (3 of 10 completed)
+# 🐍 PythonForge: Advanced Python Portfolio (3 of 10 completed)
 
 ## 📌 Executive Summary
 This repository contains **10 advanced Python mini projects**, each designed to help you **master a key area of Python programming** and demonstrate **real-world, practical skills**.
