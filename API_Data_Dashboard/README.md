@@ -1,37 +1,58 @@
 # 🌍 Countries API Dashboard
 
-A minimal data analysis project that consumes the REST Countries API, transforms JSON data into a structured dataset, and generates a clear analytical dashboard using Python.
+## 📌 Overview
+**Python CLI project** that fetches data from the **REST Countries API**, processes it into a structured dataset, and visualizes insights with a clear dashboard.  
+
+Demonstrates **Requests, JSON handling, Pandas, and Matplotlib** for API data analysis.
 
 ---
 
-## 📊 Dashboard Preview
+## ⚙️ Workflow
+
+### 1️⃣ System Recognition
+- **Domain:** API data retrieval and analysis.  
+- **Goal:** Transform JSON from a public API into actionable insights.  
+- **Constraint:** Handle nested JSON and ensure accurate aggregation.
+
+### 2️⃣ Data Collection
+- Connect to the REST Countries API.  
+- Retrieve selected fields: `name`, `region`, `population`, `area`, `capital`.
+
+### 3️⃣ Data Cleaning
+- Convert nested JSON into a **structured pandas DataFrame**.  
+- Sort and clean the data (remove missing or invalid entries).  
+- Normalize population values (in millions).
+
+### 4️⃣ Exploratory Analysis
+- Identify Top 10 most populated countries.  
+- Analyze trends across regions and population sizes.  
+
+### 5️⃣ Visualization
+- Generate **labeled bar charts** for top countries.  
+- Preview dashboard in Python using Matplotlib.  
 
 ![Dashboard Preview](dashboard_preview.png)
 
----
-
-## 🛠 Tech Stack
-
-- Python
-- requests
-- pandas
-- matplotlib
+### 6️⃣ Insights / Output
+- Structured dataset ready for further analysis.  
+- Visual dashboard communicates key trends clearly.  
 
 ---
 
-## ⚙️ What the Script Does
+## 🚀 Key Features
 
-1. Connects to the REST Countries API  
-2. Retrieves selected fields (name, region, population, area, capital)  
-3. Converts nested JSON into a structured pandas DataFrame  
-4. Cleans and sorts the data by population  
-5. Normalizes population values to millions  
-6. Displays the Top 10 most populated countries  
-7. Generates a labeled bar chart dashboard  
+| Feature | Technique / Concept |
+|---------|-------------------|
+| API data fetching | Requests to REST Countries API |
+| JSON transformation | Nested JSON → pandas DataFrame |
+| Data cleaning | Sort, normalize, remove invalid entries |
+| Analysis | Top 10 countries by population |
+| Visualization | Matplotlib bar chart dashboard |
+| Automation | Single script from fetch → clean → visualize |
 
 ---
 
-## ⚙️ How to Run
+## 🛠️ How to Run
 
 ```bash
 pip install requests pandas matplotlib
