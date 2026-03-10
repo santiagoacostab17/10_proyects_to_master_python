@@ -42,7 +42,9 @@ This project demonstrates **backtracking, recursion, object-oriented programming
 ### 5️⃣ Visualization
 **Goal:** Present the puzzle in a readable and interactive way.  
 - **Console display:** Nicely formatted 9x9 grid.  
-- **Image output:** Save as PNG (`sudoku.png` for puzzle, `sudoku_solved.png` for solution).  
+- **Image output:** Save as PNG:
+  - [Puzzle Image (`sudoku.png`)](./images/sudoku.png)  
+  - [Solved Puzzle (`sudoku_solved.png`)](./images/sudoku_solved.png)  
 - Optional enhancements: color-coded cells, bold 3x3 block separators.  
 
 ---
@@ -52,3 +54,23 @@ This project demonstrates **backtracking, recursion, object-oriented programming
 - Solve any valid puzzle automatically using **recursive backtracking**.  
 - Output the **solved board** to console and optionally as a PNG image.  
 - Demonstrates efficiency of algorithm and correctness of generation.  
+
+---
+
+## 🚀 Key Features
+
+| Step | Feature | Technique / Concept |
+|------|---------|-------------------|
+| 1 | Sudoku Solver & Generator | CLI program that generates and solves puzzles automatically |
+| 2 | Puzzle Initialization | 9x9 grid creation, user input handling |
+| 3 | Board Validation | Check pre-filled cells for rule compliance |
+| 4 | Puzzle Generation | Randomized backtracking, recursion, constraints |
+| 5 | Display & Visualization | Console formatting, matplotlib PNG output |
+| 6 | Solver | Recursive backtracking, solution verification |
+
+---
+
+## 🛠️ How to Run
+
+```bash
+python sudoku_solver_clean.py
