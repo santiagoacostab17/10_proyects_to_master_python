@@ -1,20 +1,22 @@
 # 🐍 PythonForge: Advanced Python Portfolio (3 of 10 completed)
 
 ## 📌 Executive Summary
+
 This repository features 10 advanced Python projects, each crafted to strengthen your expertise in a key area of Python programming while demonstrating practical, real-world applications. Designed for developers and analysts alike, these projects showcase clean, modular code, automation, data handling, and problem-solving skills.
 
 Projects cover:
 
-- Core algorithms & logic  
-- Data handling & automation  
-- Web & API integration  
-- Data analysis & visualization  
-- Interactive games & simulations  
-- Security & utility tools  
-- Machine learning basics  
-- End-to-end pipelines  
+- Core algorithms & logic
+- Data handling & automation
+- Web & API integration
+- Exploratory data analysis & statistics
+- Business intelligence & dashboards
+- Customer analytics & segmentation
+- A/B testing & experimentation
+- Time series analysis & forecasting
+- End-to-end analytics pipelines
 
-> **Objective:** Build a strong Python portfolio that is **recruiter-ready**, showcasing clean, modular code and diverse applications.
+> **Objective:** Build a strong Python portfolio that is **recruiter-ready**, showcasing clean, modular code and diverse data analyst applications.
 
 ---
 
@@ -25,10 +27,10 @@ Projects cover:
 | 1 | [Sudoku Solver & Generator](./Sudoku_Solver) | CLI program that generates Sudoku puzzles and solves them automatically | Backtracking, recursion, classes, logic |
 | 2 | [Batch CSV/Excel Processor](./Batch_CSV_Processor) | Automates cleaning, aggregation, and summarization of multiple datasets | Pandas, OpenPyXL, CSV, automation |
 | 3 | [API Data Dashboard](./API_Data_Dashboard) | Fetches, processes, and visualizes data from a public API | Requests, JSON, Pandas, Matplotlib/Plotly |
-| 4 | [Exploratory Data Analysis (EDA)](./EDA_Project) | Analyze datasets, generate statistics and visualizations | Pandas, Seaborn/Matplotlib, Jupyter Notebook |
-| 5 | [Pygame Mini Game](./Pygame_Mini_Game) | Small interactive game (e.g., platformer, snake, or simulation) | Pygame, classes, events, game loops |
-| 6 | [Web Scraper + Auto Report](./Web_Scraper_Auto_Report) | Scrapes data from websites and generates PDF or Excel reports | Requests, BeautifulSoup, Pandas, PDF/Excel export |
-| 7 | [Password Manager & Generator](./Password_Manager) | Securely store, encrypt, and retrieve passwords | Cryptography, file I/O, hashing, CLI |
-| 8 | [Mini Machine Learning Project](./Mini_ML_Project) | Train a simple ML model on tabular data and evaluate predictions | scikit-learn, Pandas, train/test split, metrics |
-| 9 | [Pathfinding Visualizer](./Pathfinding_Visualizer) | Visualize algorithms like A* or Dijkstra on a grid | Matplotlib/Pygame, algorithm visualization, classes |
-| 10 | [End-to-End Data Pipeline](./End_to_End_Pipeline) | Fetch API data → clean → analyze → visualize → export | Requests, Pandas, Matplotlib/Plotly, automation |
+| 4 | [Exploratory Data Analysis & Statistics](./EDA_Statistics) | Full EDA pipeline: distributions, correlations, outlier detection, and statistical summaries on a real business dataset | Pandas, Seaborn, Scipy, Jupyter Notebook |
+| 5 | [A/B Testing Framework](./AB_Testing_Framework) | End-to-end experimentation pipeline: hypothesis formulation, statistical testing, effect size, and executive recommendations | Scipy, Statsmodels, Pandas, Matplotlib |
+| 6 | [Customer Segmentation (RFM + Clustering)](./Customer_Segmentation) | Segments customers using RFM analysis and K-Means clustering, with business-ready visual profiles per segment | Pandas, Scikit-learn, Seaborn, Matplotlib |
+| 7 | [SQL + Python Analytics](./SQL_Python_Analytics) | Connects Python to a relational database to answer business questions with SQL queries and visualized KPIs | SQLite/PostgreSQL, SQLAlchemy, Pandas, Plotly |
+| 8 | [Time Series Analysis & Forecasting](./Time_Series_Forecasting) | Analyzes sales or financial trends, detects seasonality, and generates short-term forecasts | Pandas, Statsmodels, Prophet, Matplotlib |
+| 9 | [Interactive Business Dashboard](./Business_Dashboard) | Builds a deployable multi-page analytics dashboard from a real dataset with filters and KPI cards | Streamlit or Dash, Plotly, Pandas |
+| 10 | [End-to-End Analytics Pipeline](./Analytics_Pipeline) | Fetches raw API data → cleans → analyzes → visualizes → exports automated Excel/PDF report | Requests, Pandas, Plotly, OpenPyXL, automation |
