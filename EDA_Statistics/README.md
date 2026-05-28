@@ -1,11 +1,5 @@
 # Exploratory Data Analysis & Statistics — Northwind Dataset
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-2.0-lightblue?logo=pandas)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.12-teal)
-![SciPy](https://img.shields.io/badge/SciPy-1.11-orange)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
-
 Full EDA pipeline applied to the Northwind business dataset: distributions, correlations, outlier detection, and statistical summaries to surface actionable insights from sales, product, and customer data.
 
 ---
