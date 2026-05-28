@@ -37,19 +37,19 @@ Apply a structured EDA process to a real business dataset to answer:
 
 ## Project Structure
 
-eda-northwind/
-│
-├── data/
-│   └── northwind_clean.csv
-│
-├── notebooks/
-│   └── eda_northwind.ipynb
-│
-├── assets/
-│   └── *.png
-│
-├── requirements.txt
-└── README.md
+    eda-northwind/
+    │
+    ├── data/
+    │   └── northwind_clean.csv
+    │
+    ├── notebooks/
+    │   └── eda_northwind.ipynb
+    │
+    ├── assets/
+    │   └── *.png
+    │
+    ├── requirements.txt
+    └── README.md
 
 ---
 
