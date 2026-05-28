@@ -36,3 +36,47 @@ Apply a structured EDA process to a real business dataset to answer:
 ---
 
 ## Project Structure
+
+eda-northwind/
+│
+├── data/
+│   └── northwind_clean.csv
+│
+├── notebooks/
+│   └── eda_northwind.ipynb
+│
+├── assets/
+│   └── *.png
+│
+├── requirements.txt
+└── README.md
+
+---
+
+## EDA Pipeline
+
+1. Data Loading & Inspection
+2. Univariate Analysis — distributions, skewness, kurtosis
+3. Bivariate Analysis — scatter plots, regression lines, time trends
+4. Correlation Analysis — Pearson & Spearman heatmaps
+5. Outlier Detection — IQR method & Z-score
+6. Statistical Summaries — by category, product, and customer
+
+---
+
+## Tools
+
+| Tool | Purpose |
+|---|---|
+| `pandas` | Data loading, cleaning, transformation |
+| `seaborn` | Statistical visualizations |
+| `matplotlib` | Custom plot formatting |
+| `scipy.stats` | Correlation tests, Z-scores |
+| `jupyter` | Interactive notebook environment |
+
+---
+
+## Author
+
+**Santiago Acosta** — Data Analyst | Bogotá, Colombia
+Portfolio: [santiagoacostab17.github.io](https://santiagoacostab17.github.io)
